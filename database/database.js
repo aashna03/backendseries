@@ -1,2 +1,2 @@
 // connection string
-const URI = "mongodb+srv://piddi_db_user:omkY1ZL52svIPMI6@mongosample.bnfrhno.mongodb.net/"
+const URI = process.env.MONGODB_URI
